@@ -186,3 +186,11 @@ elif opcao == "Valor - Venda":
     st.subheader("assinatura: Time de io")
 
 
+uploaded_file = st.sidebar.file_uploader("Carregue um arquivo Excel (.xlsx)", type=["xlsx"])
+
+if uploaded_file is not None:
+    VENDAS30 = pd.read_excel(uploaded_file)
+    st.success("Arquivo carregado com sucesso!")
+
+
+
