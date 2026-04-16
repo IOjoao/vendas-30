@@ -3,7 +3,7 @@ import time
 import pandas as pd
 import datetime
 import graphviz
-VENDAS30 = pd.read_excel(r"C:\Users\joao.altafini\Downloads\Venda_30,streamlit.xlx.xlsx")
+VENDAS30 = pd.read_excel("Venda_30.xlsx")
 
 opcao = st.sidebar.selectbox(
     "Escolha uma opção:",
