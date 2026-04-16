@@ -3,7 +3,6 @@ import time
 import pandas as pd
 import datetime
 import graphviz
-import selenium as webdriver
 VENDAS30 = pd.read_excel(r"C:\Users\joao.altafini\Downloads\Venda_30,streamlit.xlx.xlsx")
 
 opcao = st.sidebar.selectbox(
