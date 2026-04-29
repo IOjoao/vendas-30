@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "titulo": "E = mc²",
+    "categoria": "Fisica",
+    "texto": "Energia equivale a massa vezes a velocidade da luz ao quadrado.",
+    "data": "29/04/2026 18:22"
+  },
+  {
+    "id": 2,
+    "titulo": "Redes Neurais",
+    "categoria": "IA",
+    "texto": "Redes neurais artificiais são inspiradas no cérebro humano.",
+    "data": "29/04/2026 18:22"
+  }
+]
