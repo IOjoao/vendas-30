@@ -11,7 +11,16 @@ st.set_page_config(
     page_icon="📝",
     layout="wide"
 )
+st.title("musicas para estudar")
+
+st.subheader("Stargazer")
 st.audio("ytmp3free.cc_stargazer-youtubemp3free.org.mp3")
+
+st.subheader("iron man")
+st.audio("ytmp3free.cc_iron-man-2012-remaster-youtubemp3free.org.mp3")
+
+st.subheader("Sweet Child O' Mine")
+st.audio("ytmp3free.cc_guns-n-roses-sweet-child-o-mine-official-music-video-youtubemp3free.org.mp3")
 # ── Estilos CSS ─────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
