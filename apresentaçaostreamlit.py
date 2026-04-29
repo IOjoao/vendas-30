@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon="📝",
     layout="wide"
 )
-
+st.audio("ytmp3free.cc_stargazer-youtubemp3free.org.mp3")
 # ── Estilos CSS ─────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
